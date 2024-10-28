@@ -303,3 +303,12 @@ margin-bottom:4rem;}
 padding-left:20rem;
 padding-right:20rem;}
 }
+
+/*stampa*/
+@media print {
+    header{display:none;}
+    iframe, input, aside, footer, nav{display:none;}
+    section:last-of-type{display:none;}
+  
+    }
+  
