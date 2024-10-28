@@ -219,15 +219,87 @@ padding-left:2rem;}
 
 button{height:5rem;
 width:11rem;}
+
 aside h2{font-size:3rem;}
+
 aside div p{margin-top:0;}
+
 aside div p:last-child {
     font-size:1.5rem;}
+
     aside div a{ font-size:1.7rem;}
 
     footer p{font-size:2rem;}
+
     footer address{font-size:1.9rem;}
+
 #secondP{margin-top:0;}
 }
 
 /*1200px*/
+@media screen and (min-width:1200px){
+
+    header {text-align:left;
+    height:12rem;}
+
+    header div{display:inline-block;}
+
+    header p {display: inline-block;
+        vertical-align: top;
+        font-size:2rem;
+    }
+    header nav{display:inline-block;
+        font-size:2rem;
+        vertical-align:top;
+        padding-top:2rem;
+    }
+   nav ul{padding-left:35rem;}
+
+    nav ul li{display:inline-block;
+    text-align:right;
+vertical-align:middle;} 
+
+main ul li{font-size:2rem;}
+
+p{line-height:3.5rem;}
+
+table{width:70rem;
+border-collapse:collapse;
+margin-bottom:10rem;
+}
+
+tbody tr:last-of-type{border-bottom:2px solid #3f6bca}
+
+iframe{    display: inline-block;
+    width: 550px;
+height:300px;
+border-right:0;
+margin-bottom:2rem;}
+
+    section:last-of-type{display:inline-block;width:593px;
+    height:300px;
+vertical-align:top;
+border-radius:20px;
+margin-bottom:2rem;
+margin-left:-3px;}
+
+input {width:40rem;}
+
+aside h2{margin-top:0;}
+
+aside div{
+    display: inline-block;
+    width: 38.2rem;
+    border: 0;
+margin-left:-4px;}
+
+    footer{height:20rem;}
+
+    footer p {font-size:2rem;
+    margin-top:0;
+margin-bottom:4rem;}
+
+    footer address{font-size:2rem;
+padding-left:20rem;
+padding-right:20rem;}
+}
